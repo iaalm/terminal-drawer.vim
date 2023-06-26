@@ -1,1 +1,42 @@
-*terminal_drawer.txt*  GitHub Copilot - Your AI pair programmer
+*terminal_drawer.txt*  Vim plugin for quick open/close terminal drawer
+Author : iaalm <https://github.com/iaalm>
+License: MIT license
+==============================================================================
+CONTENTS                                         *terminal-drawer-contents*
+
+Introduction ................................... |terminal-drawer-introduction|
+Options ........................................ |terminal-drawer-options|
+Commands ....................................... |terminal-drawer-commands|
+Repository ..................................... |terminal-drawer-repository|
+
+==============================================================================
+INTRODUCTION                                     *terminal-drawer-introduction*
+
+Vim plugin for quick open/close terminal drawer.
+
+==============================================================================
+OPTIONS                                          *terminal-drawer-options*
+
+g:terminal_drawer_shell                          *g:terminal_drawer_shell*
+    Type |String|.
+    Default value is ''.
+    Shell to use for terminal. If empty, use the default shell.
+
+g:terminal_drawer_leader                         *g:terminal_drawer_leader*
+    Type |String|.
+    Default value is '<C-t>'.
+    Leader key to open/close terminal.
+
+==============================================================================
+COMMANDS                                         *terminal-drawer-commands*
+
+ToggleTerminalDrawer                             *ToggleTerminalDrawer*
+    Toggle terminal drawer.
+
+==============================================================================
+REPOSITORY                                       *terminal-drawer-repository*
+
+https://github.com/iaalm/terminal-drawer.vim
+
+==============================================================================
+vim:tw=78:ts=4:ft=help:fen:

@@ -15,7 +15,8 @@ function terminal_drawer#ToggleTerminal() abort
       execute 'sb ' . termNums[0]
   else
       " no terminal buffer, create one
-      execute 'term'
+      let cmd = get(g:, 'terminal_drawer_shell', '')
+      execute 'term ' . cmd
   endif
 endfunction
 
