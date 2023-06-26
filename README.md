@@ -1,11 +1,11 @@
-# terminal-drawer.vim
+# 📟 📥 terminal-drawer.vim
 Vim plugin for quick open/close terminal drawer
 
-## Requirements
+## 🔌 Requirements
 
 Vim with terminal feature
 
-## Installation
+## 🚀 Installation
 
 vim-plug
 ```
@@ -22,10 +22,10 @@ dein.nvim
 call dein#add('iaalm/terminal-drawer.vim')
 ```
 
-## Usage
+## ⚡️ Usage
 
 Use `Ctrl-t` to toggle terminal. If any terminal already opened, switch to it.
 
-## Acknowledge
+## 💡 Acknowledge
 
 Inspired by [quick-terminal.vim](https://gist.github.com/shivamashtikar/16a4d7b83b743c9619e29b47a66138e0)
