@@ -1,5 +1,12 @@
 # 📟 📥 terminal-drawer.vim
-Vim plugin for quick open/close terminal drawer
+The purpose of this plugin is quite simple: use `<C-t>` or any key mapping to toggle terminal. 
+
+Most time, you just need a terminal to run a single command like a `make`. But you need to:
+- `:term` to open a terminal
+- `<C-w>:hid` to hidden the terminal Or bare it use some of you coding space
+- remember the buffer number of terminal OR use some tools like fzf to search buffer
+- `:sp {bufnr}` to find back you terminal
+Now you can do with only one key mapping you chosen.
 
 ## 🔌 Requirements
 
@@ -24,7 +31,7 @@ call dein#add('iaalm/terminal-drawer.vim')
 
 ## ⚡️ Usage
 
-Use `Ctrl-t` to toggle terminal. If any terminal already opened, switch to it.
+Use `Ctrl-t` to open a terminal. If any terminal already opened, switch to it. If you're focuing on one, hidden it.
 
 ## 💡 Acknowledge
 
