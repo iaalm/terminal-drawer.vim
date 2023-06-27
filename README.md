@@ -33,6 +33,16 @@ call dein#add('iaalm/terminal-drawer.vim')
 
 Use `Ctrl-t` to open a terminal. If any terminal already opened, switch to it. If you're focuing on one, hidden it.
 
+## Options
+
+```vim
+" Change your shell. This is useful if the variable "shell" is used by too many plugins.
+let g:terminal_drawer_shell = "zsh"
+
+" Change the binding to another one, if you need <C-t> for other thing.
+let g:terminal_drawer_leader = "<C-s>"
+```
+
 ## 💡 Acknowledge
 
 Inspired by [quick-terminal.vim](https://gist.github.com/shivamashtikar/16a4d7b83b743c9619e29b47a66138e0)
