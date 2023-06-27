@@ -33,7 +33,7 @@ call dein#add('iaalm/terminal-drawer.vim')
 
 Use `Ctrl-t` to open a terminal. If any terminal already opened, switch to it. If you're focuing on one, hidden it.
 
-## Options
+## 🎛️ Options
 
 ```vim
 " Change your shell. This is useful if the variable "shell" is used by too many plugins.
