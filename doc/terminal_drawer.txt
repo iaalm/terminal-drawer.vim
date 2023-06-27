@@ -21,6 +21,7 @@ g:terminal_drawer_shell                          *g:terminal_drawer_shell*
     Type |String|.
     Default value is ''.
     Shell to use for terminal. If empty, use the default shell.
+    This is useful if the variable "shell" is used by too many plugins.
 
 g:terminal_drawer_leader                         *g:terminal_drawer_leader*
     Type |String|.
