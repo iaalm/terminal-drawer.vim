@@ -17,7 +17,11 @@ function terminal_drawer#ToggleTerminal() abort
   else
       " no terminal buffer, create one
       let l:cmd = get(g:, 'terminal_drawer_shell', '')
-      execute 'term ' . l:cmd
+      if has('nvim')
+          execute ':sp term://' . l:cmd
+      else
+          execute 'term ' . l:cmd
+      endif
   endif
 endfunction
 
