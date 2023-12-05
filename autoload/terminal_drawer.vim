@@ -1,5 +1,7 @@
 function terminal_drawer#ToggleTerminal() abort
-  let l:termNums = term_list()
+  " Just same as: let l:termNums = term_list()
+  let l:termNums = filter(map(getbufinfo(), 'v:val.bufnr'), 'getbufvar(v:val, "&buftype") is# "terminal"')
+
   let l:termWins = filter(getwininfo(), 'v:val.terminal')
   let l:currentBufNum = bufnr('%')
   if index(l:termNums, l:currentBufNum) >= 0

@@ -10,7 +10,7 @@ Now you can do with only one key mapping you chosen.
 
 ## 🔌 Requirements
 
-Vim with terminal feature
+Vim/NeoVim with terminal feature
 
 ## 🚀 Installation
 
