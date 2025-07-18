@@ -42,8 +42,8 @@ let g:terminal_drawer_shell = "zsh"
 " Change the binding to another one, if you need <C-t> for other thing.
 let g:terminal_drawer_leader = "<C-s>"
 
-" Change the terminal postion
-let g:terminal_drawer_position = "horizontal" " or "vertical"
+" Change the terminal postion "bottom" or "top"
+let g:terminal_drawer_position = "bottom"
 
 " Change the terminal size
 let g:terminal_drawer_size = 20
