@@ -28,6 +28,16 @@ g:terminal_drawer_leader                         *g:terminal_drawer_leader*
     Default value is '<C-t>'.
     Leader key to open/close terminal.
 
+g:terminal_drawer_position                       *g:terminal_drawer_position*
+    Type |String|.
+    If not set, the terminal drawer will take half height of current window.
+    Position of the terminal drawer. Can be 'top' or 'bottom'.
+
+g:terminal_drawer_size                         *g:terminal_drawer_height*
+    Type |Number|.
+    If not set, the terminal drawer will take half height of current window.
+    Height of the terminal drawer in lines.
+
 ==============================================================================
 COMMANDS                                         *terminal-drawer-commands*
 
